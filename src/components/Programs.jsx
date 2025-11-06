@@ -1,9 +1,9 @@
 import React from 'react';
-import { BookOpen, Hearts, Palette, Puzzle } from 'lucide-react';
+import { BookOpen, Heart, Palette, Puzzle } from 'lucide-react';
 
 const items = [
   {
-    icon: Hearts,
+    icon: Heart,
     title: 'Nurture & Care',
     desc: 'A loving environment focused on trust, safety, and emotional growth.'
   },

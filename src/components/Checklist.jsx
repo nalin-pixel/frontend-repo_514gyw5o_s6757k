@@ -16,7 +16,7 @@ export default function Checklist() {
         <div className="grid items-center gap-10 md:grid-cols-[1.2fr,0.8fr]">
           <div>
             <h2 className="text-4xl font-extrabold tracking-tight text-sky-900 md:text-5xl">Enrollment checklist</h2>
-            <p className="mt-3 max-w-xl text-sky-700/80">Preparing for a smooth first day. Bring these items and youre golden.</p>
+            <p className="mt-3 max-w-xl text-sky-700/80">Preparing for a smooth first day. Bring these items and you're golden.</p>
 
             <ul className="mt-8 space-y-4">
               {items.map(({ icon: Icon, title, desc }, i) => (
@@ -49,7 +49,7 @@ export default function Checklist() {
           >
             <div className="rounded-2xl bg-white/60 p-6 ring-1 ring-white/50 backdrop-blur">
               <div className="flex items-center gap-2 text-sm font-semibold text-sky-800"><CheckCircle2 className="h-4 w-4" /> Pro tip</div>
-              <p className="mt-2 text-sky-800/90">Label your childs bottles, clothing, and comfort items. Pack a spare outfit and a favorite small toy for smooth transitions.</p>
+              <p className="mt-2 text-sky-800/90">Label your child's bottles, clothing, and comfort items. Pack a spare outfit and a favorite small toy for smooth transitions.</p>
               <a href="#contact" className="mt-4 inline-flex rounded-xl bg-sky-600 px-4 py-2 font-semibold text-white shadow hover:bg-sky-700">Start enrollment</a>
             </div>
 
