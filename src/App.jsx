@@ -3,6 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Programs from './components/Programs'
 import Pricing from './components/Pricing'
+import Gallery from './components/Gallery'
+import Checklist from './components/Checklist'
+import Asymmetry from './components/Asymmetry'
 import Contact from './components/Contact'
 
 function Footer() {
@@ -36,9 +39,13 @@ export default function App() {
       <main>
         <Hero />
         <section id="programs"><Programs /></section>
+        <Asymmetry />
+        <Gallery />
+        <Checklist />
         <Pricing />
         <Contact />
       </main>
+      <Footer />
     </div>
   )
 }
